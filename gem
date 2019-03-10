@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'pearson'
+gem 'tty-spinner'
+gem 'colorize'

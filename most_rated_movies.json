@@ -1,0 +1,502 @@
+[
+  {
+    "movieid": 356,
+    "title": "Forrest Gump (1994)",
+    "number_of_times_rated": 341
+  },
+  {
+    "movieid": 296,
+    "title": "Pulp Fiction (1994)",
+    "number_of_times_rated": 324
+  },
+  {
+    "movieid": 318,
+    "title": "Shawshank Redemption, The (1994)",
+    "number_of_times_rated": 311
+  },
+  {
+    "movieid": 593,
+    "title": "Silence of the Lambs, The (1991)",
+    "number_of_times_rated": 304
+  },
+  {
+    "movieid": 260,
+    "title": "Star Wars: Episode IV - A New Hope (1977)",
+    "number_of_times_rated": 291
+  },
+  {
+    "movieid": 480,
+    "title": "Jurassic Park (1993)",
+    "number_of_times_rated": 274
+  },
+  {
+    "movieid": 2571,
+    "title": "Matrix, The (1999)",
+    "number_of_times_rated": 259
+  },
+  {
+    "movieid": 1,
+    "title": "Toy Story (1995)",
+    "number_of_times_rated": 247
+  },
+  {
+    "movieid": 527,
+    "title": "Schindler's List (1993)",
+    "number_of_times_rated": 244
+  },
+  {
+    "movieid": 589,
+    "title": "Terminator 2: Judgment Day (1991)",
+    "number_of_times_rated": 237
+  },
+  {
+    "movieid": 1196,
+    "title": "Star Wars: Episode V - The Empire Strikes Back (1980)",
+    "number_of_times_rated": 234
+  },
+  {
+    "movieid": 110,
+    "title": "Braveheart (1995)",
+    "number_of_times_rated": 228
+  },
+  {
+    "movieid": 1270,
+    "title": "Back to the Future (1985)",
+    "number_of_times_rated": 226
+  },
+  {
+    "movieid": 608,
+    "title": "Fargo (1996)",
+    "number_of_times_rated": 224
+  },
+  {
+    "movieid": 1198,
+    "title": "Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)",
+    "number_of_times_rated": 220
+  },
+  {
+    "movieid": 2858,
+    "title": "American Beauty (1999)",
+    "number_of_times_rated": 220
+  },
+  {
+    "movieid": 780,
+    "title": "Independence Day (a.k.a. ID4) (1996)",
+    "number_of_times_rated": 218
+  },
+  {
+    "movieid": 1210,
+    "title": "Star Wars: Episode VI - Return of the Jedi (1983)",
+    "number_of_times_rated": 217
+  },
+  {
+    "movieid": 588,
+    "title": "Aladdin (1992)",
+    "number_of_times_rated": 215
+  },
+  {
+    "movieid": 457,
+    "title": "Fugitive, The (1993)",
+    "number_of_times_rated": 213
+  },
+  {
+    "movieid": 2959,
+    "title": "Fight Club (1999)",
+    "number_of_times_rated": 202
+  },
+  {
+    "movieid": 590,
+    "title": "Dances with Wolves (1990)",
+    "number_of_times_rated": 202
+  },
+  {
+    "movieid": 50,
+    "title": "Usual Suspects, The (1995)",
+    "number_of_times_rated": 201
+  },
+  {
+    "movieid": 47,
+    "title": "Seven (a.k.a. Se7en) (1995)",
+    "number_of_times_rated": 201
+  },
+  {
+    "movieid": 364,
+    "title": "Lion King, The (1994)",
+    "number_of_times_rated": 200
+  },
+  {
+    "movieid": 858,
+    "title": "Godfather, The (1972)",
+    "number_of_times_rated": 200
+  },
+  {
+    "movieid": 150,
+    "title": "Apollo 13 (1995)",
+    "number_of_times_rated": 200
+  },
+  {
+    "movieid": 4993,
+    "title": "Lord of the Rings: The Fellowship of the Ring, The (2001)",
+    "number_of_times_rated": 200
+  },
+  {
+    "movieid": 380,
+    "title": "True Lies (1994)",
+    "number_of_times_rated": 198
+  },
+  {
+    "movieid": 32,
+    "title": "Twelve Monkeys (a.k.a. 12 Monkeys) (1995)",
+    "number_of_times_rated": 196
+  },
+  {
+    "movieid": 592,
+    "title": "Batman (1989)",
+    "number_of_times_rated": 196
+  },
+  {
+    "movieid": 2762,
+    "title": "Sixth Sense, The (1999)",
+    "number_of_times_rated": 193
+  },
+  {
+    "movieid": 2028,
+    "title": "Saving Private Ryan (1998)",
+    "number_of_times_rated": 191
+  },
+  {
+    "movieid": 1580,
+    "title": "Men in Black (a.k.a. MIB) (1997)",
+    "number_of_times_rated": 190
+  },
+  {
+    "movieid": 5952,
+    "title": "Lord of the Rings: The Two Towers, The (2002)",
+    "number_of_times_rated": 188
+  },
+  {
+    "movieid": 377,
+    "title": "Speed (1994)",
+    "number_of_times_rated": 180
+  },
+  {
+    "movieid": 595,
+    "title": "Beauty and the Beast (1991)",
+    "number_of_times_rated": 176
+  },
+  {
+    "movieid": 7153,
+    "title": "Lord of the Rings: The Return of the King, The (2003)",
+    "number_of_times_rated": 176
+  },
+  {
+    "movieid": 344,
+    "title": "Ace Ventura: Pet Detective (1994)",
+    "number_of_times_rated": 175
+  },
+  {
+    "movieid": 4306,
+    "title": "Shrek (2001)",
+    "number_of_times_rated": 174
+  },
+  {
+    "movieid": 648,
+    "title": "Mission: Impossible (1996)",
+    "number_of_times_rated": 168
+  },
+  {
+    "movieid": 1265,
+    "title": "Groundhog Day (1993)",
+    "number_of_times_rated": 165
+  },
+  {
+    "movieid": 1721,
+    "title": "Titanic (1997)",
+    "number_of_times_rated": 164
+  },
+  {
+    "movieid": 1197,
+    "title": "Princess Bride, The (1987)",
+    "number_of_times_rated": 163
+  },
+  {
+    "movieid": 3578,
+    "title": "Gladiator (2000)",
+    "number_of_times_rated": 161
+  },
+  {
+    "movieid": 1097,
+    "title": "E.T. the Extra-Terrestrial (1982)",
+    "number_of_times_rated": 160
+  },
+  {
+    "movieid": 1240,
+    "title": "Terminator, The (1984)",
+    "number_of_times_rated": 158
+  },
+  {
+    "movieid": 231,
+    "title": "Dumb & Dumber (Dumb and Dumber) (1994)",
+    "number_of_times_rated": 158
+  },
+  {
+    "movieid": 1704,
+    "title": "Good Will Hunting (1997)",
+    "number_of_times_rated": 157
+  },
+  {
+    "movieid": 367,
+    "title": "Mask, The (1994)",
+    "number_of_times_rated": 157
+  },
+  {
+    "movieid": 500,
+    "title": "Mrs. Doubtfire (1993)",
+    "number_of_times_rated": 153
+  },
+  {
+    "movieid": 1036,
+    "title": "Die Hard (1988)",
+    "number_of_times_rated": 151
+  },
+  {
+    "movieid": 736,
+    "title": "Twister (1996)",
+    "number_of_times_rated": 150
+  },
+  {
+    "movieid": 1073,
+    "title": "Willy Wonka & the Chocolate Factory (1971)",
+    "number_of_times_rated": 148
+  },
+  {
+    "movieid": 34,
+    "title": "Babe (1995)",
+    "number_of_times_rated": 148
+  },
+  {
+    "movieid": 597,
+    "title": "Pretty Woman (1990)",
+    "number_of_times_rated": 147
+  },
+  {
+    "movieid": 2716,
+    "title": "Ghostbusters (a.k.a. Ghost Busters) (1984)",
+    "number_of_times_rated": 147
+  },
+  {
+    "movieid": 1291,
+    "title": "Indiana Jones and the Last Crusade (1989)",
+    "number_of_times_rated": 147
+  },
+  {
+    "movieid": 541,
+    "title": "Blade Runner (1982)",
+    "number_of_times_rated": 146
+  },
+  {
+    "movieid": 316,
+    "title": "Stargate (1994)",
+    "number_of_times_rated": 145
+  },
+  {
+    "movieid": 1136,
+    "title": "Monty Python and the Holy Grail (1975)",
+    "number_of_times_rated": 145
+  },
+  {
+    "movieid": 1193,
+    "title": "One Flew Over the Cuckoo's Nest (1975)",
+    "number_of_times_rated": 144
+  },
+  {
+    "movieid": 165,
+    "title": "Die Hard: With a Vengeance (1995)",
+    "number_of_times_rated": 142
+  },
+  {
+    "movieid": 6539,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
+    "number_of_times_rated": 141
+  },
+  {
+    "movieid": 2628,
+    "title": "Star Wars: Episode I - The Phantom Menace (1999)",
+    "number_of_times_rated": 138
+  },
+  {
+    "movieid": 1682,
+    "title": "Truman Show, The (1998)",
+    "number_of_times_rated": 137
+  },
+  {
+    "movieid": 733,
+    "title": "Rock, The (1996)",
+    "number_of_times_rated": 135
+  },
+  {
+    "movieid": 1221,
+    "title": "Godfather: Part II, The (1974)",
+    "number_of_times_rated": 135
+  },
+  {
+    "movieid": 5349,
+    "title": "Spider-Man (2002)",
+    "number_of_times_rated": 134
+  },
+  {
+    "movieid": 2918,
+    "title": "Ferris Bueller's Day Off (1986)",
+    "number_of_times_rated": 133
+  },
+  {
+    "movieid": 293,
+    "title": "Léon: The Professional (a.k.a. The Professional) (Léon) (1994)",
+    "number_of_times_rated": 132
+  },
+  {
+    "movieid": 1089,
+    "title": "Reservoir Dogs (1992)",
+    "number_of_times_rated": 132
+  },
+  {
+    "movieid": 4226,
+    "title": "Memento (2000)",
+    "number_of_times_rated": 132
+  },
+  {
+    "movieid": 1213,
+    "title": "Goodfellas (1990)",
+    "number_of_times_rated": 131
+  },
+  {
+    "movieid": 4963,
+    "title": "Ocean's Eleven (2001)",
+    "number_of_times_rated": 130
+  },
+  {
+    "movieid": 4886,
+    "title": "Monsters, Inc. (2001)",
+    "number_of_times_rated": 130
+  },
+  {
+    "movieid": 153,
+    "title": "Batman Forever (1995)",
+    "number_of_times_rated": 129
+  },
+  {
+    "movieid": 586,
+    "title": "Home Alone (1990)",
+    "number_of_times_rated": 129
+  },
+  {
+    "movieid": 1214,
+    "title": "Alien (1979)",
+    "number_of_times_rated": 127
+  },
+  {
+    "movieid": 3793,
+    "title": "X-Men (2000)",
+    "number_of_times_rated": 127
+  },
+  {
+    "movieid": 8961,
+    "title": "Incredibles, The (2004)",
+    "number_of_times_rated": 126
+  },
+  {
+    "movieid": 587,
+    "title": "Ghost (1990)",
+    "number_of_times_rated": 126
+  },
+  {
+    "movieid": 2997,
+    "title": "Being John Malkovich (1999)",
+    "number_of_times_rated": 126
+  },
+  {
+    "movieid": 253,
+    "title": "Interview with the Vampire: The Vampire Chronicles (1994)",
+    "number_of_times_rated": 125
+  },
+  {
+    "movieid": 539,
+    "title": "Sleepless in Seattle (1993)",
+    "number_of_times_rated": 125
+  },
+  {
+    "movieid": 1617,
+    "title": "L.A. Confidential (1997)",
+    "number_of_times_rated": 125
+  },
+  {
+    "movieid": 3114,
+    "title": "Toy Story 2 (1999)",
+    "number_of_times_rated": 125
+  },
+  {
+    "movieid": 1200,
+    "title": "Aliens (1986)",
+    "number_of_times_rated": 125
+  },
+  {
+    "movieid": 4973,
+    "title": "Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",
+    "number_of_times_rated": 125
+  },
+  {
+    "movieid": 778,
+    "title": "Trainspotting (1996)",
+    "number_of_times_rated": 124
+  },
+  {
+    "movieid": 1923,
+    "title": "There's Something About Mary (1998)",
+    "number_of_times_rated": 123
+  },
+  {
+    "movieid": 924,
+    "title": "2001: A Space Odyssey (1968)",
+    "number_of_times_rated": 123
+  },
+  {
+    "movieid": 10,
+    "title": "GoldenEye (1995)",
+    "number_of_times_rated": 122
+  },
+  {
+    "movieid": 6377,
+    "title": "Finding Nemo (2003)",
+    "number_of_times_rated": 122
+  },
+  {
+    "movieid": 357,
+    "title": "Four Weddings and a Funeral (1994)",
+    "number_of_times_rated": 122
+  },
+  {
+    "movieid": 1206,
+    "title": "Clockwork Orange, A (1971)",
+    "number_of_times_rated": 121
+  },
+  {
+    "movieid": 2396,
+    "title": "Shakespeare in Love (1998)",
+    "number_of_times_rated": 121
+  },
+  {
+    "movieid": 58559,
+    "title": "Dark Knight, The (2008)",
+    "number_of_times_rated": 121
+  },
+  {
+    "movieid": 39,
+    "title": "Clueless (1995)",
+    "number_of_times_rated": 120
+  },
+  {
+    "movieid": 1732,
+    "title": "Big Lebowski, The (1998)",
+    "number_of_times_rated": 120
+  }
+]

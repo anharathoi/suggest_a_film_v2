@@ -1,48 +1,49 @@
 require 'csv'
 require 'json'
 
-###### Movies database ######
-movies_table = CSV.table('movies.csv')
-
-movies_array = movies_table.map do |row|
-  row.to_h
+class Movie
+  attr_accessor :id, :title
+  def initialize(id, title)
+    @id = id
+    @title = title
+    @genres = []
+    @number_of_times_rated = 0
+  end
 end
 
-# puts movies_array[0..2] # each data looks like this => {:movieid=>2, :title=>"Jumanji (1995)", :genres=>"Adventure|Children|Fantasy"}
-
-
-###### Ratings database ######
-ratings_table = CSV.table('ratings.csv')
-
-ratings_array = ratings_table.map do |row|
-  row.to_h
+class User
+  def initialize(id)
+    @id = id
+  end
 end
-# p ratings_array # each data loooks like this => {:userid=>1, :movieid=>1343, :rating=>2.0, :timestamp=>1260759131}
 
-##### Top rated movies #####
-# go through the ratings array and make an array of movie_ids so that the movie_ids rated the most times can be counted
-movie_count_array = []
-ratings_array.each do |k|
-  movie_count_array << k[:movieid]
+
+################### ALL movies ######################
+ALL_MOVIES = CSV.read('./movies.csv', {headers: true, header_converters: :symbol})
+
+movie_instances = []
+
+ALL_MOVIES.each do |lines|
+  movie_instance = Movie.new(lines[:movieid], lines[:title])
+  # p lines[:title]
+  movie_instances << movie_instance
 end
-puts movie_count_array.sort!
-# sort and make a hash {movieid: title, times_rated: count}
 
+################### Top rated movies ######################
+MOST_RATED = File.read('./most_rated_movies.json')
+top_rated_100_movies = JSON.parse(MOST_RATED, {:symbolize_names => true})
 
-######  make hash of user with movie ratings ######
-# all_ratings = {
-#   user_id1: {
-#     movieid: rating,
-#     movieid: rating,
-#   },
-#   user_id2: {
-#     movieid: rating,
-#     movieid: rating,
-#   }
-#   user_id3: {
-#     movieid: rating,
-#     movieid: rating,
-#   }
-# }
-# Pearson.recommendations(combined_hash, '5000')
-# 5000 is the user input hash
+# p top_rated_100_movies.class
+# top_rated_100_movies.each_with_index do |item, i|
+#   # puts """
+#   # =============== #{i+1} ===================
+#   # Movie ID: #{item[:movieid]}
+#   # Title: #{item[:title]}
+#   # Number of times rated: #{item[:number_of_times_rated]}
+#   # ==========================================
+#   # """
+# end
+
+# p movie_instances
+
+p movie_instances[0].title

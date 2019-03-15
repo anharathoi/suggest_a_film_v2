@@ -1,5 +1,6 @@
 require 'csv'
 require 'json'
+require 'pg'
 
 ###### Movies database ######
 MOVIELENS_MOVIE_DATA = CSV.table('movies.csv')

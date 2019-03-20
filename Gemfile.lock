@@ -2,8 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorize (0.8.1)
-    csv (3.0.4)
-    json (2.2.0)
+    fastercsv (1.5.5)
     pearson (1.1.0)
     tty-cursor (0.6.1)
     tty-spinner (0.9.0)
@@ -14,8 +13,7 @@ PLATFORMS
 
 DEPENDENCIES
   colorize
-  csv
-  json
+  fastercsv (~> 1.5, >= 1.5.5)
   pearson
   tty-spinner
 

@@ -26,7 +26,6 @@ class Rating
   end
 end
 
-
 ################### ALL movies ######################
 ALL_MOVIES = CSV.read('./movies.csv', {headers: true, header_converters: :symbol})
 

@@ -1,14 +1,6 @@
 require 'pg'
 require 'csv'
 
-class Rating
-  def initialize(user, movie)
-    @id = "#{user.id}_#{movie.id}"
-    @user = user
-    @movie = movie
-  end
-end
-
 # DATABASE connection
 connection = PG::Connection.open(:dbname => 'movie_project', :user => 'athoi')
 

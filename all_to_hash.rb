@@ -9,15 +9,8 @@ scores = {}
 connection.exec "select * from ratings" do |data|
   data.each do |row|
     scores["#{row["user_id"]}"] = {}
-# {"id"=>"7768", "movie_id"=>"81591", "user_id"=>"48", "movie_rating"=>"4.0"}
-# {"id"=>"7769", "movie_id"=>"81845", "user_id"=>"48", "movie_rating"=>"3.5"}
-
-# binding.pry
   end
 end
-
-# p ratings
-# p scores
 
 puts "BEGINNING QUERY TIME: #{Time.now}"
 scores.map do |k,v|
@@ -30,6 +23,6 @@ scores.map do |k,v|
 end
 # p scores
 File.open('./all_movies.json', "w") do |file|
-  file.write(scores.to_json)
+  file.write(JSON.pretty_generate(scores))
 end
 puts "END QUERY TIME: #{Time.now}"

@@ -1,16 +1,6 @@
 require 'pg'
 require 'csv'
 
-class Movie
-  attr_accessor :id, :title, :genres
-  def initialize(id, title, genres)
-    @id = id
-    @title = title
-    @genres = genres
-    @number_of_times_rated = 0
-  end
-end
-
 # DATABASE connection
 connection = PG::Connection.open(:dbname => 'movie_project', :user => 'athoi')
 

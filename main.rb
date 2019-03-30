@@ -7,8 +7,7 @@ require 'pry'
 # # DATABASE connection
 connection = PG::Connection.open(:dbname => 'movie_project', :user => 'athoi')
 # JSON file_load
-json_file = File.read('all_movies.json')
-scores = JSON.parse(json_file)
+scores = JSON.parse(File.read('all_movies.json'))
 
 # get top 100 movies from the db
 top_movies = []
@@ -46,7 +45,9 @@ if response == "y"
   puts "Please enter you user_id"
   user_id = gets.chomp.to_i
   current_user_ratings = scores.select{ |k, v| k == user_id.to_s}
-  # binding.pry
+  
+  # {"673"=>
+  #   {"587"=>3.0, "47"=>2.0, "780"=>4.0}
 end
 if response == "n"
   user_id = connection.exec("INSERT INTO users VALUES (DEFAULT) returning id")
@@ -56,8 +57,10 @@ if response == "n"
     "#{user_id}" => {}
   }
   scores["#{user_id}"] = {}
+  # binding.pry
 end
 # p current_user_ratings
+
 
 # generate 5 random movies to rate
 3.times do
@@ -65,7 +68,9 @@ end
   # p movie_to_rate
   puts "Please rate #{movie_to_rate["title"].blue}"
   movie_rating = gets.chomp.to_f
+
   current_user_ratings["#{user_id}"][movie_to_rate["movie_id"]] = movie_rating
+  scores["#{user_id}"][movie_to_rate["movie_id"]] = movie_rating
   # binding.pry
   # insert rating to the ratings table in database
   connection.exec("INSERT INTO ratings (id, movie_id, user_id, movie_rating) VALUES
@@ -76,8 +81,12 @@ File.open('./all_movies.json', "w") do |file|
   file.write(JSON.pretty_generate(scores))
 end
 
-scores_after_adding_new_user_rating = JSON.parse(json_file)
+
+scores_after_adding_new_user_rating = JSON.parse(File.read('all_movies.json'))
+# binding.pry
+
 recommendations = Pearson.recommendations(scores_after_adding_new_user_rating, "#{user_id}")
+# binding.pry
 puts "Here are some movie recommendations for you: "
 recommendations.each do |item|
   connection.exec("select title from movies where id=#{item[0].to_i}") do |result|
